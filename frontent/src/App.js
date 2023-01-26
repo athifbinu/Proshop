@@ -7,7 +7,7 @@ function App() {
     <>
       
         <Header/>
-        <main>
+        <main className='py-4'>
           <Container>
           <h1>welcome to app</h1>
           </Container>
