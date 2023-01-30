@@ -1,10 +1,14 @@
 const express=require('express')
 const products =require('./data/products')
 const dotenv =require('dotenv')
-const connectDB=require('./config/db')
+const colors =require('colors')  
+const connectDB=require('./Database/connection')
 const app =express()
 
 dotenv.config()
+
+
+connectDB()  
 
 app.get('/',(req,res)=>{
     res.send("api is running")
@@ -26,5 +30,5 @@ app.get('/api/products/:id',(req,res)=>{
 
 
 app.listen(PORT,()=>{
-    console.log(`server runnning in  ${PORT}`)
+    console.log(`server runnning in  ${PORT}`.bgYellow.bold)
 })
