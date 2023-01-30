@@ -1,6 +1,6 @@
 const products = [
     {
-      
+      _id:'1',
       name: 'Airpods Wireless Bluetooth Headphones',
       image: '/images/airpods.jpg',
       description:
@@ -13,7 +13,7 @@ const products = [
       numReviews: 12,
     },
     {
-    
+      _id:'2',
       name: 'iPhone 11 Pro 256GB Memory',
       image: '/images/alexa.jpg',
       description:
@@ -26,7 +26,7 @@ const products = [
       numReviews: 8,
     },
     {
-      
+      _id:'3',
       name: 'Cannon EOS 80D DSLR Camera',
       image: '/images/camera.jpg',
       description:
@@ -39,7 +39,7 @@ const products = [
       numReviews: 12,
     },
     {
-      
+      _id:'4',
       name: 'Sony Playstation 4 Pro White Version',
       image: '/images/mouse.jpg',
       description:
@@ -52,7 +52,7 @@ const products = [
       numReviews: 12,
     },
     {
-      
+      _id:'5',
       name: 'Logitech G-Series Gaming Mouse',
       image: '/images/phone.jpg',
       description:
@@ -65,7 +65,7 @@ const products = [
       numReviews: 10,
     },
     {
-      
+      _id:'6',
       name: 'Amazon Echo Dot 3rd Generation',
       image: '/images/playstation.jpg',
       description:
@@ -77,6 +77,124 @@ const products = [
       rating: 4,
       numReviews: 12,
     },
+    {
+      _id:'7',
+      name: 'apple ipone 14',
+      image: '/images/apple13pro.jpg',
+      description:
+        'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+      brand: 'Logitech',
+      category: 'Electronics',
+      price: 30.99,
+      countInStock: 7,
+      rating: 3.4,
+      numReviews: 10,
+    },
+    {
+      _id:'8',
+      name: 'ipone 13',
+      image: '/images/ipone.jpg',
+      description:
+        'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+      brand: 'Logitech',
+      category: 'Electronics',
+      price: 49.99,
+      countInStock: 7,
+      rating: 3.5,
+      numReviews: 10,
+    },
+    {
+      _id:'9',
+      name: 'mack book',
+      image: '/images/mackbook.jpg',
+      description:
+        'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+      brand: 'Logitech',
+      category: 'Electronics',
+      price: 49.99,
+      countInStock: 7,
+      rating: 3.5,
+      numReviews: 10,
+    },
+    {
+      _id:'10',
+      name: 'Logitech G-Series Gaming Mouse',
+      image: '/images/phone.jpg',
+      description:
+        'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+      brand: 'Logitech',
+      category: 'Electronics',
+      price: 49.99,
+      countInStock: 7,
+      rating: 3.5,
+      numReviews: 10,
+    },
+    {
+      _id:'11',
+      name: 'Logitech  Mouse',
+      image: '/images/ipad.jpg',
+      description:
+        'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+      brand: 'Logitech',
+      category: 'Electronics',
+      price: 49.99,
+      countInStock: 7,
+      rating: 3.5,
+      numReviews: 10,
+    },
+    {
+      _id:'12',
+      name: 'Logitech G-Se',
+      image: '/images/ipad1.jpg',
+      description:
+        'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+      brand: 'Logitech',
+      category: 'Electronics',
+      price: 49.99,
+      countInStock: 7,
+      rating: 3.5,
+      numReviews: 10,
+    },
+    {
+      _id:'13',
+      name: 'Logitech G-Seri',
+      image: '/images/keybord.png',
+      description:
+        'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+      brand: 'Logitech',
+      category: 'Electronics',
+      price: 49.99,
+      countInStock: 7,
+      rating: 3.5,
+      numReviews: 10,
+    },
+    {
+      _id:'14',
+      name: 'Logitech G-Series ',
+      image: '/images/watch.jpg',
+      description:
+        'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+      brand: 'Logitech',
+      category: 'Electronics',
+      price: 49.99,
+      countInStock: 7,
+      rating: 3.5,
+      numReviews: 10,
+    },
+    {
+      _id:'15',
+      name: 'Logitech G-Ser',
+      image: '/images/eco.jpg',
+      description:
+        'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+      brand: 'Logitech',
+      category: 'Electronics',
+      price: 49.99,
+      countInStock: 7,
+      rating: 3.5,
+      numReviews: 10,
+    },
+    
   ]
   
   module.exports = products
